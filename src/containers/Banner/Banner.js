@@ -15,21 +15,33 @@ function Banner() {
                 </div>
             </div>
             <div className="Banner__SliderControls">
-                <div>
-                    <span className="Banner__SliderControls-number">01</span>
-                    <span className="Banner__SliderControls-text">intro</span>
+                <div className="Banner__SliderControls-container">
+                    <div className="Banner__SliderControls-indicator" />
+                    <div>
+                        <span className="Banner__SliderControls-number">01</span>
+                        <span className="Banner__SliderControls-text">intro</span>
+                    </div>    
                 </div>
-                <div>
-                    <span className="Banner__SliderControls-number">02</span>
-                    <span className="Banner__SliderControls-text">work</span>
+                <div className="Banner__SliderControls-container">
+                    <div className="Banner__SliderControls-indicator" />
+                    <div>
+                        <span className="Banner__SliderControls-number">02</span>
+                        <span className="Banner__SliderControls-text">work</span>
+                    </div>
                 </div>
-                <div>
-                    <span className="Banner__SliderControls-number">03</span>
-                    <span className="Banner__SliderControls-text">about</span>
+                <div className="Banner__SliderControls-container">
+                    <div className="Banner__SliderControls-indicator" />
+                    <div>
+                        <span className="Banner__SliderControls-number">03</span>
+                        <span className="Banner__SliderControls-text">about</span>
+                    </div>
                 </div>
-                <div>
-                    <span className="Banner__SliderControls-number">04</span>
-                    <span className="Banner__SliderControls-text">contacts</span>
+                <div className="Banner__SliderControls-container">
+                    <div className="Banner__SliderControls-indicator" />
+                    <div>
+                        <span className="Banner__SliderControls-number">04</span>
+                        <span className="Banner__SliderControls-text">contacts</span>
+                    </div>
                 </div>
             </div>
         </section>
