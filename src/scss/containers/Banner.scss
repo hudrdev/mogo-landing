@@ -11,7 +11,7 @@
     background-repeat: no-repeat;
     color: white;
     display: grid;
-    grid-template-columns: minmax(1.5rem, 1fr) minmax(0, 120rem) minmax(1.5rem, 1fr);
+    grid-template-columns: minmax(1.5rem, 1fr) minmax(min-content, 120rem) minmax(1.5rem, 1fr);
     grid-template-rows: 1fr 7.2rem;
     grid-template-areas: '. slider .' '. controls .';
     justify-items: center;
