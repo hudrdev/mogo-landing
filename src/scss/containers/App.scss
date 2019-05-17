@@ -1,6 +1,6 @@
 .App {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 100rem;
-    grid-template-areas: 'Banner';
+    grid-template-rows: 100rem min-content;
+    grid-template-areas: 'Banner' 'AboutUs' 'Facts' 'Services';
 }

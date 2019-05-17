@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Roboto|Montserrat:400,700');
 
 .Banner {
     &__Slider-title {
@@ -11,8 +11,8 @@
         font-family: 'Montserrat', sans-serif;
         font-size: 15rem;
         font-stretch: 40% !important;
-        line-height: 14rem;
         font-weight: bold;
+        line-height: 14rem;
         text-transform: uppercase;
     }
 
@@ -40,4 +40,65 @@
     }
 }
 
+.SectionTitle {
+    &__titleL1 {
+        font-family: 'Kaushan Script', cursive;
+        font-size: 2.4rem;
+    }
 
+    &__titleL2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+.AboutUs {
+    &__text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        line-height: 2.4rem;
+        color: #999;
+        text-align: center;
+    }
+
+    &__images-item {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 1.8rem;
+        color: white;
+        text-transform: uppercase;
+    }
+}
+
+.Facts__Container {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+
+    &-number {
+        font-size: 7.2rem;
+        font-weight: bold;
+    }
+
+    &-text {
+        font-size: 1.4rem;
+        text-transform: uppercase;
+    }
+}
+
+.Services__Item {
+    &-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+    }
+
+    &-text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        line-height: 2.4rem;
+        color: #999;
+        text-align: left;
+    }
+}
