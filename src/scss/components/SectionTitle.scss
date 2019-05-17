@@ -1,0 +1,23 @@
+.SectionTitle {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 12rem 8rem 3px;
+    grid-template-areas: 'titleL1' 'titleL2' 'divider';
+    justify-items: center;
+
+    &__titleL1 {
+        grid-area: titleL1;
+        align-self: flex-end;
+    }
+
+    &__titleL2 {
+        grid-area: titleL2;
+        align-self: flex-start;
+        margin: .5rem 0;
+    }
+
+    .Divider {
+        grid-area: divider;
+    }
+}
