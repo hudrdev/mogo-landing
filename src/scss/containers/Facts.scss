@@ -1,0 +1,34 @@
+.Facts {
+    grid-area: Facts;
+    display: grid;
+    grid-template-columns: minmax(1.5rem, 1fr) minmax(min-content, 120rem) minmax(1.5rem, 1fr);
+    grid-template-rows: 27rem;
+    grid-template-areas: '. container .';
+    background: #95e1d3;
+
+    &__Container {
+        grid-area: container;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr;
+        grid-gap: 1px;
+        background: #b5eae0;
+        padding: 0 1px;
+
+        &-item {
+            background: #95e1d3;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &-number {
+            margin: 0;
+        }
+
+        &-text {
+            margin: 0 0 2rem 0;
+        }
+    }
+}
