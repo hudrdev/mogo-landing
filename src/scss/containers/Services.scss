@@ -1,0 +1,47 @@
+.Services {
+    grid-area: Services;
+    padding: 2rem 0 5.7rem 0;
+    display: grid;
+    grid-template-columns: minmax(1.5rem, 1fr) minmax(min-content, 120rem) minmax(1.5rem, 1fr);
+    grid-template-rows: min-content 37rem;
+    grid-template-areas: '. title .' '. services .';
+    grid-gap: 1px;
+
+    .SectionTitle {
+        grid-area: title;
+    }
+
+    &__Container {
+        background: #e5e5e5;
+        grid-area: services;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 18.5rem);
+        grid-row-gap: 1px;
+    }
+
+    &__Item {
+        display: grid;
+        grid-template-columns: 6rem 1fr;
+        grid-template-rows: max-content 1fr;
+        grid-template-areas: 'icon title' 'icon text';
+        padding: 6rem 0 0 3rem;
+        background: white;
+
+        &-icon {
+            grid-area: icon;
+            margin-top: .5rem;
+        }
+
+        &-title {
+            grid-area: title;
+            margin: 0;
+        }
+
+        &-text {
+            grid-area: text;
+            margin: 1rem 0 0 0;
+
+        }
+    }
+}
