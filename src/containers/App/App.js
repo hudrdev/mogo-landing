@@ -5,15 +5,13 @@ import AboutUs from '../AboutUs/AboutUs';
 import Facts from '../Facts/Facts';
 import Services from '../Services/Services';
 
-function App() {
-    return (
-        <div className="App">
-            <Banner />
-            <AboutUs />
-            <Facts />
-            <Services />
-        </div>
-    );
-}
+const App = () => (
+    <div className="App">
+        <Banner />
+        <AboutUs />
+        <Facts />
+        <Services />
+    </div>
+)
 
 export default App;
