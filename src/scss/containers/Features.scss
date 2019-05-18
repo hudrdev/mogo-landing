@@ -1,0 +1,32 @@
+.Features {
+    grid-area: Features;
+    background: linear-gradient(to bottom, rgba(white, 0.85), rgba(white, 0.85)), url('../img/features-bg.jpg');
+    background-size: cover;
+    display: grid;
+    grid-template-columns: minmax(1.5rem, 1fr) minmax(min-content, 120rem) minmax(1.5rem, 1fr);
+    grid-template-rows: max-content 62.7rem;
+    grid-template-areas: '. title .' '. container .';
+    position: relative;
+    margin-bottom: 2rem;
+
+    .SectionTitle {
+        grid-area: title;
+    }
+
+    &__Container {
+        grid-area: container;
+        overflow: hidden;
+    }
+
+    &__iPad {
+        width: 47.7rem;
+        margin: 4.5rem 0 0 33.5rem;
+    }
+
+    &__iPhone {
+        position: absolute;
+        width: 27.5rem;
+        bottom: -9.2rem;
+        left: 54.55%;
+    }
+}
