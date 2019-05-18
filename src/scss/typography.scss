@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Roboto|Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Roboto:400,400i|Montserrat:400,700');
 
 .Banner {
     &__Slider-title {
@@ -100,5 +100,29 @@
         line-height: 2.4rem;
         color: #999;
         text-align: left;
+    }
+}
+
+.WhatWeDo {
+    &__text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        line-height: 2.4rem;
+        color: #999;
+        text-align: center;
+    }
+
+    &__Accordeon-item-head-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+    }
+
+    &__Accordeon-item-text {
+        font-family: 'Roboto', sans-serif;
+        font-style: italic;
+        font-size: 1.5rem;
+        line-height: 2.4rem;
+        color: #999;
     }
 }
