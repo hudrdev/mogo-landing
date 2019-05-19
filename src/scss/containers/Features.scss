@@ -7,7 +7,6 @@
     grid-template-rows: max-content 62.7rem;
     grid-template-areas: '. title .' '. container .';
     position: relative;
-    margin-bottom: 2rem;
 
     .SectionTitle {
         grid-area: title;
