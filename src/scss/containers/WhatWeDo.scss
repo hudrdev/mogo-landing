@@ -4,6 +4,7 @@
     grid-template-columns: minmax(1.5rem, 1fr) minmax(min-content, 120rem) minmax(1.5rem, 1fr);
     grid-template-rows: 22.3rem max-content 53rem;
     grid-template-areas: '. title .' '. text .' '. container .';
+    padding-bottom: 4.5rem;
 
     .SectionTitle {
         grid-area: title;

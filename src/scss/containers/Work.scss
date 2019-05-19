@@ -1,0 +1,20 @@
+.Work {
+    grid-area: Work;
+    display: grid;
+    grid-template-columns: minmax(1.5rem, 1fr) minmax(min-content, 120rem) minmax(1.5rem, 1fr);
+    grid-template-rows: calc(22rem + 3px) repeat(2, max-content);
+    grid-template-areas: '. title .' '. text .' 'gallery gallery gallery';
+
+    .SectionTitle {
+        grid-area: title;
+    }
+
+    &__text {
+        grid-area: text;
+        margin-top: 2rem;
+    }
+
+    .Gallery {
+        grid-area: gallery;
+    }
+}

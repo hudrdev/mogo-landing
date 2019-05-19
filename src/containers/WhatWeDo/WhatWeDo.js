@@ -19,7 +19,7 @@ const WhatWeDo = () => (
                     <div className="WhatWeDo__Accordeon-item-head">
                         <img src={require('../../img/whatwedo-pic.svg')} alt="" className='WhatWeDo__Accordeon-item-head-icon'/>
                         <span className='WhatWeDo__Accordeon-item-head-title'>photography</span>
-                        <img src={require('../../img/arrow-down.svg')} alt="" className="WhatWeDo__Accordeon-item-head-arrow"/>
+                        <img src={require('../../img/arrow.svg')} alt="" className="WhatWeDo__Accordeon-item-head-arrow"/>
                     </div>
                     <p className="WhatWeDo__Accordeon-item-text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eius modi, minus a quaerat reprehenderit similique ut itaque exercitationem quia est voluptatibus facere quo blanditiis quas fugiat, ullam, reiciendis maiores! 
@@ -32,7 +32,7 @@ const WhatWeDo = () => (
                     <div className="WhatWeDo__Accordeon-item-head">
                         <img src={require('../../img/whatwedo-equalizer.svg')} alt="" className='WhatWeDo__Accordeon-item-head-icon'/>
                         <span className='WhatWeDo__Accordeon-item-head-title'>creativity</span>
-                        <img src={require('../../img/arrow-down.svg')} alt="" className="WhatWeDo__Accordeon-item-head-arrow"/>
+                        <img src={require('../../img/arrow.svg')} alt="" className="WhatWeDo__Accordeon-item-head-arrow"/>
                     </div>
                     {/* <p className="WhatWeDo__Accordeon-item-text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eius modi, minus a quaerat reprehenderit similique ut itaque exercitationem quia est voluptatibus facere quo blanditiis quas fugiat, ullam, reiciendis maiores! 
@@ -44,7 +44,7 @@ const WhatWeDo = () => (
                     <div className="WhatWeDo__Accordeon-item-head">
                         <img src={require('../../img/whatwedo-bullseye.svg')} alt="" className='WhatWeDo__Accordeon-item-head-icon'/>
                         <span className='WhatWeDo__Accordeon-item-head-title'>web design</span>
-                        <img src={require('../../img/arrow-down.svg')} alt="" className="WhatWeDo__Accordeon-item-head-arrow"/>
+                        <img src={require('../../img/arrow.svg')} alt="" className="WhatWeDo__Accordeon-item-head-arrow"/>
                     </div>
                     {/* <p className="WhatWeDo__Accordeon-item-text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eius modi, minus a quaerat reprehenderit similique ut itaque exercitationem quia est voluptatibus facere quo blanditiis quas fugiat, ullam, reiciendis maiores! 

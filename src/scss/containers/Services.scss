@@ -1,6 +1,5 @@
 .Services {
     grid-area: Services;
-    padding: 2rem 0 5.7rem 0;
     display: grid;
     grid-template-columns: minmax(1.5rem, 1fr) minmax(min-content, 120rem) minmax(1.5rem, 1fr);
     grid-template-rows: min-content 37rem;

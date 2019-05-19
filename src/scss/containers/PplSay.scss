@@ -1,0 +1,15 @@
+.PplSay {
+    grid-area: PplSay;
+    display: grid;
+    grid-template-columns: minmax(1.5rem, 1fr) minmax(min-content, 120rem) minmax(1.5rem, 1fr);
+    grid-template-rows: max-content 60.5rem;
+    grid-template-areas: '. title .' '. container .';
+
+    .SectionTitle {
+        grid-area: title;
+    }
+
+    &__Container {
+        grid-area: container;
+    }
+}

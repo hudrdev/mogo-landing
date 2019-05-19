@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Roboto:400,400i|Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Roboto:300i,400,400i|Montserrat:400,700');
 
 .Banner {
     &__Slider-title {
@@ -125,4 +125,81 @@
         line-height: 2.4rem;
         color: #999;
     }
+}
+
+.Quote__Slider-quote p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    font-weight: 300;
+    font-style: italic;
+    color: #999;
+}
+
+.Quote__Slider-quote-name span {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2.4rem;
+    color: #333;
+}
+
+.OurTeam__text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    color: #999;
+    text-align: center;
+}
+
+.OurTeam__images__name-l1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.OurTeam__images__name-l2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    font-weight: 300;
+    font-style: italic;
+    color: #999;
+}
+
+.Work__text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    color: #999;
+    text-align: center;
+}
+
+.Gallery__item-over p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+.Gallery__item-over span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    color: white;
+}
+
+.Testimonial__Slider-quote p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    font-weight: 300;
+    font-style: italic;
+    color: #999;
+}
+
+.Testimonial__Slider-quote-name span {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2.4rem;
+    color: #333;
 }
