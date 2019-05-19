@@ -1,0 +1,146 @@
+.OurTeam {
+    grid-area: OurTeam;
+    display: grid;
+    grid-template-columns: minmax(1.5rem, 1fr) minmax(min-content, 120rem) minmax(1.5rem, 1fr);
+    grid-template-rows: calc(22rem + 3px) repeat(2, max-content);
+    grid-template-areas: '. title .' '. text .' '. images .';
+
+    .SectionTitle {
+        grid-area: title;
+    }
+
+    &__text {
+        grid-area: text;
+        margin-top: 2rem;
+    }
+
+    &__images {
+        grid-area: images;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 10rem min-content max-content 10rem;
+        grid-template-areas: '. . .' 'item-1 item-2 item-3' 'name1 name2 name3' '. . .';
+        grid-column-gap: 3rem;
+
+        &-item {
+            height: 47rem;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            z-index: 100;
+            transition: all .3s ease-in-out;
+            box-shadow: 0 0 0 0 #95e1d3;
+
+            &::before {
+                display: block;
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                left: 0;
+                top: 0;
+                opacity: 1;
+                z-index: 150;
+                transition: all .3s ease-in-out;
+            }
+
+            &-socials {
+                display: grid;
+                grid-template-columns: repeat(4, max-content);
+                grid-template-rows: max-content;
+                grid-gap: 1px;
+                position: absolute;
+                z-index: 200;
+                opacity: 0;
+                transition: all .3s ease-in-out;
+
+                div {
+                    width: 5.6rem;
+                    height: 5.6rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: #fce38a;
+                    transition: all .3s ease-in-out;
+                    
+                    i {
+                        font-size: 2.4rem;
+                        color: #f38181;
+                        transition: all .3s ease-in-out;
+                    }
+
+                    &:hover {
+                        background: #f38181;
+                        i {
+                            color: white;
+                        }
+                    }
+                }
+            }
+
+            &:hover {
+                transform: translate(-1rem, -1rem);
+                box-shadow: 1rem 1rem 0 0 #95e1d3;
+
+                .OurTeam__images-item-socials {
+                    opacity: 1;
+                }
+
+                &::before {
+                    opacity: 0;
+                }
+            }
+
+            &:nth-child(1) {
+                grid-area: item-1;
+                background: linear-gradient(to bottom, rgba(#f38181, .9), rgba(#fce38a, .9)), url('../img/team-1.jpg');
+
+                &::before {
+                    background: url('../img/team-1.jpg');
+                }
+            }
+
+            &:nth-child(3) {
+                grid-area: item-2;
+                background: linear-gradient(to bottom, rgba(#f38181, .9), rgba(#fce38a, .9)), url('../img/team-2.jpg');
+                
+                &::before {
+                    background: url('../img/team-2.jpg');
+                }
+            }
+
+            &:nth-child(5) {
+                grid-area: item-3;
+                background: linear-gradient(to bottom, rgba(#f38181, .9), rgba(#fce38a, .9)), url('../img/team-3.jpg');
+
+                &::before {
+                    background: url('../img/team-3.jpg');
+                }
+            }
+        }
+
+        &__name {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-top: 2rem;
+        }
+
+        &__name:nth-child(2) {
+            grid-area: name1;
+        }
+
+        &__name:nth-child(4) {
+            grid-area: name2;
+        }
+
+        &__name:nth-child(6) {
+            grid-area: name3;
+        }
+    }
+}
